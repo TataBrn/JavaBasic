@@ -21,8 +21,7 @@ public class MyArrayAsObject {
         System.out.println("Массив после обмена: " + Arrays.toString(theBestArray));
 
         //Выводим в консоль результат суммы первого и среднего элемента
-        int sumElements;
-        sumElements = theBestArray[0] + theBestArray[theBestArray.length/2];
+        int sumElements = theBestArray[0] + theBestArray[theBestArray.length/2];
         System.out.print("Сумма первого и среднего элемента: " + sumElements);
     }
 
