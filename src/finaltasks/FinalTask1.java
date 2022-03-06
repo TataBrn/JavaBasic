@@ -20,7 +20,7 @@ public class FinalTask1 {
         float exchangeRates = in.nextFloat(); //курс
         System.out.print("Сколько рублей? ");
         float numbersOfRubles = in.nextFloat(); //кол-во рублей
-        float numbersOfDollars = numbersOfRubles / exchangeRates;
+        float numbersOfDollars = numbersOfRubles / exchangeRates; //кол-во долларов
         System.out.print("Итого: ");
         System.out.printf("%6.2f долларов", numbersOfDollars);
 
